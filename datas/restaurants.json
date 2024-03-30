@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Alanne's Restaurant",
+    "address": {
+      "address_id": 1,
+      "postalCode": "18235-2239",
+      "streetAddress": "20, Cooper Square",
+      "addressLocality": "New York",
+      "addressRegion": "New York",
+      "addressCountry": "USA"
+    },
+    "url": "https://www.alannesrestaurant.com",
+    "menu": "https://www.alannesrestaurant.com/menu",
+    "telephone": "+1 347 1231234",
+    "priceRange": "$5-20"
+  },
+  {
+    "id": 2,
+    "name": "Darly's Restaurant",
+    "address": {
+      "address_id": 2,
+      "postalCode": "18235-2240",
+      "streetAddress": "30, Cooper Square",
+      "addressLocality": "New York",
+      "addressRegion": "New York",
+      "addressCountry": "USA"
+    },
+    "url": "https://www.darlysrestaurant.com",
+    "menu": "https://www.darlysrestaurant.com/menu",
+    "telephone": "+1 347 1231244",
+    "priceRange": "$5-20"
+  },
+  {
+    "id": 3,
+    "name": "Jonath's Restaurant",
+    "address": {
+      "address_id": 3,
+      "postalCode": "18235-2241",
+      "streetAddress": "40, Cooper Square",
+      "addressLocality": "New York",
+      "addressRegion": "New York",
+      "addressCountry": "USA"
+    },
+    "url": "https://www.jonathsrestaurant.com",
+    "menu": "https://www.jonathsrestaurant.com/menu",
+    "telephone": "+1 347 1231254",
+    "priceRange": "$5-20"
+  },
+  {
+    "id": 4,
+    "name": "John's Restaurant",
+    "address": {
+      "address_id": 4,
+      "postalCode": "18235-2251",
+      "streetAddress": "50, Cooper Square",
+      "addressLocality": "New York",
+      "addressRegion": "New York",
+      "addressCountry": "USA"
+    },
+    "url": "https://www.johnsrestaurant.com",
+    "menu": "https://www.johnsrestaurant.com/menu",
+    "telephone": "+1 347 1231264",
+    "priceRange": "$5-20"
+  }
+]

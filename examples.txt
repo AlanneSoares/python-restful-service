@@ -1,9 +1,7 @@
-import
-
 connection = mysql.connector.connect(host='localhost', user='usuário do mysql', password='senha do mysql', database='nome da base do mysql')
 cursor = connection.cursor()
 
-### crud ###
+######################################### crud #########################################
 
 ## create - fetchall
 product = "Chocolate"
