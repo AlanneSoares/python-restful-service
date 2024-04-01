@@ -21,7 +21,7 @@
     "address": {
       "address_id": 2,
       "postalCode": "18235-2240",
-      "streetAddress": "30, Cooper Square",
+      "streetAddress": "30,%Cooper%Square",
       "addressLocality": "New York",
       "addressRegion": "New York",
       "addressCountry": "USA"
@@ -37,7 +37,7 @@
     "address": {
       "address_id": 3,
       "postalCode": "18235-2241",
-      "streetAddress": "40, Cooper Square",
+      "streetAddress": "40,%Cooper%Square",
       "addressLocality": "New York",
       "addressRegion": "New York",
       "addressCountry": "USA"
@@ -53,7 +53,7 @@
     "address": {
       "address_id": 4,
       "postalCode": "18235-2251",
-      "streetAddress": "50, Cooper Square",
+      "streetAddress": "50,%Cooper%Square",
       "addressLocality": "New York",
       "addressRegion": "New York",
       "addressCountry": "USA"
