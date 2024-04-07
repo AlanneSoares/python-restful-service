@@ -23,7 +23,7 @@ def find_all():
 
 
 ## Find by id
-@app.route("/api/restaurants/<int:restaurant_id>", methods=["GET"])
+@app.route("/api/restaurant/<int:restaurant_id>", methods=["GET"])
 def find_by_id(restaurant_id: int):
     for restaurant in restaurants:
         if restaurant.get("id") == restaurant_id:
@@ -32,7 +32,7 @@ def find_by_id(restaurant_id: int):
 
 
 ## Find by postal code (with params)
-@app.route("/api/restaurants/address", methods=["GET"])
+@app.route("/api/restaurant/address", methods=["GET"])
 def find_by_address_parameters():
     for restaurant in restaurants:
         if (restaurant.get("address").get("postalCode") == request.args.get("postalcode")
@@ -46,7 +46,7 @@ def find_by_address_parameters():
 
 
 ## Find by postal code (in the request body)
-@app.route("/api/restaurants/address", methods=["POST"])
+@app.route("/api/restaurant/address", methods=["POST"])
 def find_by_postal_code_address():
     postalcode = request.json.get("postalCode")
     for restaurant in restaurants:
@@ -56,7 +56,7 @@ def find_by_postal_code_address():
 
 
 ## Update address by id
-@app.route("/api/restaurants/<int:restaurant_id>", methods=["PUT"])
+@app.route("/api/restaurant/<int:restaurant_id>", methods=["PUT"])
 def update_by_id(restaurant_id: int):
     changed_restaurant = request.json
     for index, restaurant in enumerate(restaurants):
@@ -67,7 +67,7 @@ def update_by_id(restaurant_id: int):
 
 
 ## Delete by id
-@app.route("/api/restaurants/<int:restaurant_id>", methods=["DELETE"])
+@app.route("/api/restaurant/<int:restaurant_id>", methods=["DELETE"])
 def delete_by_id(restaurant_id: int):
     for index, restaurant in enumerate(restaurants):
         if restaurant.get("id") == restaurant_id:
